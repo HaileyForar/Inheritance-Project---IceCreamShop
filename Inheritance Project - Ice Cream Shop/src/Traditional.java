@@ -1,5 +1,5 @@
 
-public class Traditional extends IceCream 
+public class Traditional extends IceCream
 {
 	String name = "Traditional";
 	String type = "Older flavors that never die";
