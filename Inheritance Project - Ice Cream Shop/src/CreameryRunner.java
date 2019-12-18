@@ -14,8 +14,9 @@ public class CreameryRunner {
 			 c.numberOfScoops();
 			 c.description();
 			 c.eatingVessel();
-			 ((Traditional) c).type1();
-			 ((Modern) c).type1();
+			 
+			 //unsuccessful casting
+//			 ((Traditional) c).type1();
 			 			 
 			 System.out.println();
 		 }
