@@ -9,13 +9,14 @@ public class CreameryRunner {
 		 collection[2] = new Italian();
 		 collection[3] = new American();
 		 
-		 for(Creamery i : collection)
+		 for(Creamery c : collection)
 		 {
-			 i.numberOfScoops();
-			 i.description();
-			 i.eatingVessel();
-			 
-			 
+			 c.numberOfScoops();
+			 c.description();
+			 c.eatingVessel();
+			 ((Traditional) c).type1();
+			 ((Modern) c).type1();
+			 			 
 			 System.out.println();
 		 }
 		 

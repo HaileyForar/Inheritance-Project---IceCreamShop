@@ -21,5 +21,11 @@ public class Modern extends IceCream
 	{
 		System.out.println("Eat these various wacky ice-creams in either a cup or a cone.");	
 	}
+	
+	@Override
+	public void type1()
+	{
+		System.out.println("asdfsdfsa");
+	}
 
 }

@@ -21,5 +21,11 @@ public class Italian extends Gelato
 	{
 		System.out.println("Luxurious flavors that are usually best enjoyed in a traditional bowl.");	
 	}
+	
+	@Override
+	public void type1()
+	{
+		System.out.println("asdfsdfsa");
+	}
 
 }

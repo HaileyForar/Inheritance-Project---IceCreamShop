@@ -22,6 +22,20 @@ public class Traditional extends IceCream
 		System.out.println("These classic flavors can be eaten in either a cup or a cone.");	
 	}
 	
+	@Override
+	public void type1()
+	{
+		System.out.println("asdfsdfsa");
+	}
+	
+
+	
 }
+
+
+	
+
+
+
  
 

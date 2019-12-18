@@ -1,9 +1,9 @@
 
 public class American extends Gelato 
 {
-    String name = "American";
-	String type = "New flavors to suit the American palate";
-	
+	 String name = "American";
+	 String type = "New flavors to suit the American palate";
+		
 	@Override
 	public void numberOfScoops() 
 	{
@@ -21,6 +21,11 @@ public class American extends Gelato
 	{
 		System.out.println("Luxurious flavors that are usually best enjoyed in a traditional bowl.");	
 	}
-
+	
+	@Override
+	public void type1()
+	{
+		System.out.println("asdfsdfsa");
+	}
 
 }
